@@ -39,5 +39,5 @@ if build_scatter: # Si la casilla de verificación está seleccionada
     # Mostrar un gráfico Plotly interactivo
     st.plotly_chart(fig, use_container_width=True)
 
-st.markdown("Link al repositorio: [GitHub - blaury14/Sprint5_TST](https://github.com/blaury14/Sprint5_TST)")
+st.markdown("Link al repositorio: [GitHub - blaury14/Sprint5_TST](https://github.com/blaury14/Sprint5_TST)" '- 2024')
 
