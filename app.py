@@ -5,6 +5,11 @@ import streamlit as st
 # Leer el archivo CSV del conjunto de datos en un DataFrame
 car_data = pd.read_csv('vehicles_us.csv')
 
+# Establecer el título de la página
+st.title("DA-17_Bastian Laury")
+
+# 1. Histograma Con CheckBox
+st.header("Histograma")
 # Crear una casilla de verificación para construir un histograma
 build_histogram = st.checkbox('Construir un histograma')
 
@@ -18,6 +23,9 @@ if build_histogram: # Si la casilla de verificación está seleccionada
     # Mostrar un gráfico Plotly interactivo
     st.plotly_chart(fig, use_container_width=True)
 
+
+# 2. Grafico de Dispersion
+st.header("Grafico de dispersion")
 # Crear una casilla de verificación para construir un gráfico de dispersión
 build_scatter = st.checkbox('Construir un gráfico de dispersión')
 
@@ -30,3 +38,5 @@ if build_scatter: # Si la casilla de verificación está seleccionada
     
     # Mostrar un gráfico Plotly interactivo
     st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("Link al repositorio: [GitHub - blaury14/Sprint5_TST](https://github.com/blaury14/Sprint5_TST)")
