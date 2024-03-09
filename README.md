@@ -9,7 +9,7 @@ Para utilizar la aplicación, sigue estos pasos:
 
 1. Accede a la aplicación a través de [este enlace](https://sprint5-tst.onrender.com).
 2. Una vez dentro de la aplicación, puedes hacer clic en los botones para construir el histograma y el gráfico de dispersión.
-3. Explora los gráficos interactivos y los datos para obtener información sobre los anuncios de venta de coches.
+
 
 ## Tecnologías Utilizadas
 
@@ -26,4 +26,4 @@ Este proyecto utiliza las siguientes tecnologías:
 
 ## Licencia
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
+Este proyecto está bajo la licencia MIT.
