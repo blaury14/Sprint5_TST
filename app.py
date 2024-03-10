@@ -4,7 +4,8 @@ import streamlit as st
 
 # Leer el archivo CSV del conjunto de datos en un DataFrame
 car_data = pd.read_csv('vehicles_us.csv')
-
+# Establecer el título de la página
+st.set_page_config(page_title="Proyecto Sprint 5 - Bastian Laury")
 # Establecer el título de la página
 st.title("Anuncio de Venta de Vehiculos - Graficos")
 
