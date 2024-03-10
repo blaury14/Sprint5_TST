@@ -6,7 +6,7 @@ import streamlit as st
 car_data = pd.read_csv('vehicles_us.csv')
 
 # Establecer el título de la página
-st.title("Análisis de Vehículos en EE. UU.")
+st.title("Anuncio de Venta de Vehiculos - Graficos")
 
 # 1. Histograma Con CheckBox
 st.header("Histograma")
