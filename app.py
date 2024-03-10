@@ -6,7 +6,7 @@ import streamlit as st
 car_data = pd.read_csv('vehicles_us.csv')
 
 # Establecer el título de la página
-st.title("DA-17_Bastian Laury")
+st.title("Análisis de Vehículos en EE. UU.")
 
 # 1. Histograma Con CheckBox
 st.header("Histograma")
@@ -25,7 +25,7 @@ if build_histogram: # Si la casilla de verificación está seleccionada
 
 
 # 2. Grafico de Dispersion
-st.header("Grafico de dispersion")
+st.header("Gráfico de Dispersión")
 # Crear una casilla de verificación para construir un gráfico de dispersión
 build_scatter = st.checkbox('Construir un gráfico de dispersión')
 
