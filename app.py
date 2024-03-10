@@ -26,19 +26,14 @@ if build_histogram: # Si la casilla de verificación está seleccionada
 
 
 # 2. Grafico de Dispersion
-st.header("Gráfico de Dispersión")
-# Crear una casilla de verificación para construir un gráfico de dispersión
-build_scatter = st.checkbox('Construir un gráfico de dispersión')
+st.header("Gráfico de Dispersión con Regresión Lineal")
+build_scatter = st.checkbox('Construir un gráfico de dispersión con regresión lineal')
 
-if build_scatter: # Si la casilla de verificación está seleccionada
-    # Escribir un mensaje
-    st.write('Construir un gráfico de dispersión para el conjunto de datos de anuncios de venta de coches')
-    
-    # Crear un gráfico de dispersión utilizando "model_year" en lugar de "year"
-    fig = px.scatter(car_data, x="model_year", y="price", color="fuel")
-    
-    # Mostrar un gráfico Plotly interactivo
+if build_scatter:
+    st.write('Construir un gráfico de dispersión con regresión lineal para el conjunto de datos de anuncios de venta de coches')
+    fig = px.scatter(car_data, x="model_year", y="price", color="fuel", trendline="ols")
     st.plotly_chart(fig, use_container_width=True)
+
 
 st.markdown("Link al repositorio: [GitHub - blaury14/Sprint5_TST](https://github.com/blaury14/Sprint5_TST)" '- 2024')
 
