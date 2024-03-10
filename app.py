@@ -41,3 +41,4 @@ if build_scatter: # Si la casilla de verificación está seleccionada
 
 st.markdown("Link al repositorio: [GitHub - blaury14/Sprint5_TST](https://github.com/blaury14/Sprint5_TST)" '- 2024')
 
+st.markdown("lo invito a mirar el otro poryecto que hice, fijandome en el video DEMO: [render](https://da-17-vehicles-us.onrender.com/)")
